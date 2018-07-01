@@ -1,0 +1,25 @@
+$darkgray: #414A4C;
+
+%style1
+{
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: Bold;
+    background-color: white;
+}
+
+#navbar
+{
+    color: $darkgray;
+    @extend %style1
+}
+
+.main_content
+{
+    color: $darkgray;
+    h1, h2
+    {
+        font-weight: bold;
+    }
+
+}

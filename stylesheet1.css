@@ -1,9 +1,34 @@
 body
 {
     background-color: #B5A642;
-    color: white;
-    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgIMVHU8G3ynMzJuGIvegAd3W0zwMqJI4PJU3voL7rZRk5Py76lg) no-repeat center center;
-    background-size: cover;
+    color: black;
+    background-image: url("https://thumbs.dreamstime.com/b/beige-seamless-pattern-music-notes-vector-background-99871064.jpg");
     height: 1000px;
-    text-align: center;
+    margin-left: 75px;
+    margin-top: 20px;
+    margin-right: 75px;
+}
+
+
+
+@media (min-width: 800px) {
+h1
+{
+    font-size: 60px;
+}
+}
+
+@media (max-width: 800px) {
+h1
+{
+    font-size: 24px;
+}
+h2
+{
+    font-size: 18px;
+}
+p, #AudioFiles
+{
+    font-size: 10px;
+}
 }

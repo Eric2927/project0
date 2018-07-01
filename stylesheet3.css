@@ -1,7 +1,30 @@
 body
 {
+    background-image: url("https://thumbs.dreamstime.com/b/beige-seamless-pattern-music-notes-vector-background-99871064.jpg");
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
     text-align: center;
-    background-image: url("https://www.wallpapersbrowse.com/images/hg/hghlrlu.jpg");
-    background-size: cover;
-    color: white;
+}
+
+@media (min-width: 800px) {
+h1
+{
+    font-size: 60px;
+}
+}
+
+@media (max-width: 800px) {
+h1
+{
+    font-size: 24px;
+}
+h2
+{
+    font-size: 18px;
+}
+p
+{
+    font-size: 10px;
+}
 }
